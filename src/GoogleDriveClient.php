@@ -113,7 +113,6 @@ class GoogleDriveClient
      */
     private function getClient():\Google_Client
     {
-
         $client = new \Google_Client();
         $client->setAuthConfig($this->clientIdPathAndFileName);
         $client->addScope($this->scope);
