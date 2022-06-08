@@ -1,0 +1,22 @@
+{
+  "name": "patriceckhart/google-drive-api",
+  "type": "library",
+  "description": "Google Drive Api client",
+  "authors": [
+    {
+      "name": "Patric Eckhart",
+      "role": "Developer, maintainer"
+    }
+  ],
+  "require": {
+    "google/apiclient" : "~2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "PatricEckhart\\": "src/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
